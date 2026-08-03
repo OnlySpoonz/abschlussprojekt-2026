@@ -1,0 +1,94 @@
+{
+    "rooms": [
+        {
+            "roomType": "Spawn",
+            "roomName": "Spawn",
+            "floorPrefabPath": "Assets/MyStuff/Assets/SpawnRoomFloor.prefab",
+            "wallPrefabPath": "Assets/MyStuff/Assets/SpawnWall.prefab",
+            "ceilingPrefabPath": "Assets/MyStuff/Assets/SpawnRoomFloor.prefab",
+            "doorPrefabPath": "Assets/MyStuff/Assets/DoorProp.prefab",
+            "spawnChance": 1.0,
+            "spawnAmount": 1,
+            "wallHeight": 4,
+            "possibleContents": []
+        },
+        {
+            "roomType": "Boss",
+            "roomName": "BossRoom",
+            "floorPrefabPath": "Assets/MyStuff/Assets/BossFloor.prefab",
+            "wallPrefabPath": "Assets/MyStuff/Assets/BossWall.prefab",
+            "ceilingPrefabPath": "Assets/MyStuff/Assets/BossFloor.prefab",
+            "doorPrefabPath": "Assets/MyStuff/Assets/DoorProp.prefab",
+            "spawnChance": 1.0,
+            "spawnAmount": 1,
+            "wallHeight": 4,
+            "possibleContents": [
+                {
+                    "prefabPath": "Assets/MyStuff/Assets/DoorProp.prefab",
+                    "minAmount": 9,
+                    "maxAmount": 19
+                }
+            ]
+        },
+        {
+            "roomType": "Treasure",
+            "roomName": "Treasure",
+            "floorPrefabPath": "Assets/MyStuff/Assets/TreasureRoomFloor.prefab",
+            "wallPrefabPath": "Assets/MyStuff/Assets/TreasureRoomWall.prefab",
+            "ceilingPrefabPath": "Assets/MyStuff/Assets/TreasureRoomFloor.prefab",
+            "doorPrefabPath": "Assets/MyStuff/Assets/DoorProp.prefab",
+            "spawnChance": 1.0,
+            "spawnAmount": 1,
+            "wallHeight": 4,
+            "possibleContents": []
+        },
+        {
+            "roomType": "Puzzle",
+            "roomName": "Puzzle",
+            "floorPrefabPath": "Assets/MyStuff/Assets/PuzzleRoomFloor.prefab",
+            "wallPrefabPath": "Assets/MyStuff/Assets/PuzzleRoomWall.prefab",
+            "ceilingPrefabPath": "Assets/MyStuff/Assets/PuzzleRoomFloor.prefab",
+            "doorPrefabPath": "Assets/MyStuff/Assets/DoorProp.prefab",
+            "spawnChance": 1.0,
+            "spawnAmount": 1,
+            "wallHeight": 4,
+            "possibleContents": []
+        },
+        {
+            "roomType": "Standard",
+            "roomName": "Standart Room",
+            "floorPrefabPath": "Assets/MyStuff/Assets/StandartFloor.prefab",
+            "wallPrefabPath": "Assets/MyStuff/Assets/StandardWall.prefab",
+            "ceilingPrefabPath": "Assets/MyStuff/Assets/StandartFloor.prefab",
+            "doorPrefabPath": "Assets/MyStuff/Assets/DoorProp.prefab",
+            "spawnChance": 1.0,
+            "spawnAmount": 1,
+            "wallHeight": 4,
+            "possibleContents": []
+        },
+        {
+            "roomType": "NPC",
+            "roomName": "NPCRoom",
+            "floorPrefabPath": "Assets/MyStuff/Assets/NPCRoomFloor.prefab",
+            "wallPrefabPath": "Assets/MyStuff/Assets/NPCRoomWall.prefab",
+            "ceilingPrefabPath": "Assets/MyStuff/Assets/NPCRoomFloor.prefab",
+            "doorPrefabPath": "Assets/MyStuff/Assets/DoorProp.prefab",
+            "spawnChance": 1.0,
+            "spawnAmount": 1,
+            "wallHeight": 4,
+            "possibleContents": []
+        },
+        {
+            "roomType": "Shop",
+            "roomName": "ShopRoom",
+            "floorPrefabPath": "Assets/MyStuff/Assets/ShopRoomFloor.prefab",
+            "wallPrefabPath": "Assets/MyStuff/Assets/ShopRoomWall.prefab",
+            "ceilingPrefabPath": "Assets/MyStuff/Assets/ShopRoomFloor.prefab",
+            "doorPrefabPath": "Assets/MyStuff/Assets/DoorProp.prefab",
+            "spawnChance": 1.0,
+            "spawnAmount": 1,
+            "wallHeight": 4,
+            "possibleContents": []
+        }
+    ]
+}

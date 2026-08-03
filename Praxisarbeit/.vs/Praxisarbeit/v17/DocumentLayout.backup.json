@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B17C9566-A023-48BE-A28B-5E3F42E8E0F6}|Assembly-CSharp.csproj|c:\\users\\nitschke324252.studlogin\\desktop\\praxisarbeit\\assets\\mystuff\\scripts\\room\\roomtypelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17C9566-A023-48BE-A28B-5E3F42E8E0F6}|Assembly-CSharp.csproj|solutionrelative:assets\\mystuff\\scripts\\room\\roomtypelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17C9566-A023-48BE-A28B-5E3F42E8E0F6}|Assembly-CSharp.csproj|c:\\users\\nitschke324252.studlogin\\desktop\\praxisarbeit\\assets\\mystuff\\scripts\\dungeon\\dungeonspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17C9566-A023-48BE-A28B-5E3F42E8E0F6}|Assembly-CSharp.csproj|solutionrelative:assets\\mystuff\\scripts\\dungeon\\dungeonspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714CD9D1-8AA9-D57F-6D68-53686AF7A80A}|Assembly-CSharp-Editor.csproj|C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\assets\\mystuff\\editor\\dungeongeneratorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714CD9D1-8AA9-D57F-6D68-53686AF7A80A}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\mystuff\\editor\\dungeongeneratorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17C9566-A023-48BE-A28B-5E3F42E8E0F6}|Assembly-CSharp.csproj|C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\assets\\mystuff\\scripts\\bsp\\bspnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17C9566-A023-48BE-A28B-5E3F42E8E0F6}|Assembly-CSharp.csproj|solutionrelative:assets\\mystuff\\scripts\\bsp\\bspnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17C9566-A023-48BE-A28B-5E3F42E8E0F6}|Assembly-CSharp.csproj|C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\assets\\mystuff\\scripts\\bsp\\bsptree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17C9566-A023-48BE-A28B-5E3F42E8E0F6}|Assembly-CSharp.csproj|solutionrelative:assets\\mystuff\\scripts\\bsp\\bsptree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomTypeLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\Assets\\MyStuff\\Scripts\\Room\\RoomTypeLibrary.cs",
+              "RelativeDocumentMoniker": "Assets\\MyStuff\\Scripts\\Room\\RoomTypeLibrary.cs",
+              "ToolTip": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\Assets\\MyStuff\\Scripts\\Room\\RoomTypeLibrary.cs",
+              "RelativeToolTip": "Assets\\MyStuff\\Scripts\\Room\\RoomTypeLibrary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T07:13:35.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BSPTree.cs",
+              "DocumentMoniker": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\Assets\\MyStuff\\Scripts\\BSP\\BSPTree.cs",
+              "RelativeDocumentMoniker": "Assets\\MyStuff\\Scripts\\BSP\\BSPTree.cs",
+              "ToolTip": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\Assets\\MyStuff\\Scripts\\BSP\\BSPTree.cs",
+              "RelativeToolTip": "Assets\\MyStuff\\Scripts\\BSP\\BSPTree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T07:05:47.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BSPNode.cs",
+              "DocumentMoniker": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\Assets\\MyStuff\\Scripts\\BSP\\BSPNode.cs",
+              "RelativeDocumentMoniker": "Assets\\MyStuff\\Scripts\\BSP\\BSPNode.cs",
+              "ToolTip": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\Assets\\MyStuff\\Scripts\\BSP\\BSPNode.cs",
+              "RelativeToolTip": "Assets\\MyStuff\\Scripts\\BSP\\BSPNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T07:05:42.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DungeonSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\Assets\\MyStuff\\Scripts\\Dungeon\\DungeonSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\MyStuff\\Scripts\\Dungeon\\DungeonSpawner.cs",
+              "ToolTip": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\Assets\\MyStuff\\Scripts\\Dungeon\\DungeonSpawner.cs",
+              "RelativeToolTip": "Assets\\MyStuff\\Scripts\\Dungeon\\DungeonSpawner.cs",
+              "ViewState": "AgIAAHABAAAAAAAAAAAmwJEBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T06:59:16.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DungeonGeneratorWIndow.cs",
+              "DocumentMoniker": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\Assets\\MyStuff\\Editor\\DungeonGeneratorWIndow.cs",
+              "RelativeDocumentMoniker": "Assets\\MyStuff\\Editor\\DungeonGeneratorWIndow.cs",
+              "ToolTip": "C:\\Users\\nitschke324252.STUDLOGIN\\Desktop\\Praxisarbeit\\Assets\\MyStuff\\Editor\\DungeonGeneratorWIndow.cs",
+              "RelativeToolTip": "Assets\\MyStuff\\Editor\\DungeonGeneratorWIndow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:57:53.789Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

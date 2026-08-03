@@ -1,0 +1,45 @@
+# =========================================================================
+# Unity-spezifische Ordner & Dateien
+# =========================================================================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Asset store packages (müssen meist aus Lizenzgründen ignoriert werden)
+AssetStoreTools*
+
+# Autogenerierte Visual Studio / Rider / MonoDevelop Dateien
+ExportedObj/
+.cons/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Rider spezifisch
+.idea/
+*.sln.iml
+
+# Visual Studio Code spezifisch
+.vscode/
+
+# =========================================================================
+# System & Secrets
+# =========================================================================
+.DS_Store
+Thumbs.db
+.env

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec30494309bf5174a8ddb6fe28c62676, type: 3}
+  m_Name: Treasure
+  m_EditorClassIdentifier: 
+  roomName: Treasure
+  floorPrefab: {fileID: 2030082906283897958, guid: c772c58f6d38b7c4790f1953c61a8750, type: 3}
+  wallPrefab: {fileID: 3742635294878781567, guid: a648e325dfe568a4ba06ec27b73804b8, type: 3}
+  ceilingPrefab: {fileID: 2030082906283897958, guid: c772c58f6d38b7c4790f1953c61a8750, type: 3}
+  doorPrefab: {fileID: 244344039564585192, guid: e631a5d6474d70540ae250586796fa2a, type: 3}
+  possibleContents: []
+  spawnChance: 1
+  spawnAmount: 1
+  wallHeight: 4

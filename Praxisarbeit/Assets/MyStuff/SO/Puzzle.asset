@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec30494309bf5174a8ddb6fe28c62676, type: 3}
+  m_Name: Puzzle
+  m_EditorClassIdentifier: 
+  roomName: Puzzle
+  floorPrefab: {fileID: 2030082906283897958, guid: b730ebe47ff235147a12bbcf069343a2, type: 3}
+  wallPrefab: {fileID: 3742635294878781567, guid: 0e7fb164e43d35442828d81a93382afd, type: 3}
+  ceilingPrefab: {fileID: 2030082906283897958, guid: b730ebe47ff235147a12bbcf069343a2, type: 3}
+  doorPrefab: {fileID: 244344039564585192, guid: e631a5d6474d70540ae250586796fa2a, type: 3}
+  possibleContents:
+  - prefab: {fileID: 0}
+    minAmount: 0
+    maxAmount: 0
+  spawnChance: 1
+  spawnAmount: 1
+  wallHeight: 4

@@ -1,0 +1,507 @@
+{
+    "rooms": [
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 5,
+                "y": 2
+            },
+            "maxCorner": {
+                "x": 17,
+                "y": 11
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 10,
+                        "y": 11
+                    },
+                    "isHorizontal": false,
+                    "length": 8
+                },
+                {
+                    "start": {
+                        "x": 11,
+                        "y": 11
+                    },
+                    "isHorizontal": false,
+                    "length": 8
+                },
+                {
+                    "start": {
+                        "x": 17,
+                        "y": 6
+                    },
+                    "isHorizontal": true,
+                    "length": 15
+                },
+                {
+                    "start": {
+                        "x": 17,
+                        "y": 7
+                    },
+                    "isHorizontal": true,
+                    "length": 15
+                }
+            ]
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 2,
+                "y": 18
+            },
+            "maxCorner": {
+                "x": 18,
+                "y": 33
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 9,
+                        "y": 33
+                    },
+                    "isHorizontal": false,
+                    "length": 4
+                },
+                {
+                    "start": {
+                        "x": 10,
+                        "y": 33
+                    },
+                    "isHorizontal": false,
+                    "length": 4
+                }
+            ]
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 3,
+                "y": 36
+            },
+            "maxCorner": {
+                "x": 17,
+                "y": 47
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 8,
+                        "y": 47
+                    },
+                    "isHorizontal": false,
+                    "length": 8
+                },
+                {
+                    "start": {
+                        "x": 9,
+                        "y": 47
+                    },
+                    "isHorizontal": false,
+                    "length": 8
+                }
+            ]
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 4,
+                "y": 54
+            },
+            "maxCorner": {
+                "x": 15,
+                "y": 62
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 8,
+                        "y": 62
+                    },
+                    "isHorizontal": false,
+                    "length": 12
+                },
+                {
+                    "start": {
+                        "x": 9,
+                        "y": 62
+                    },
+                    "isHorizontal": false,
+                    "length": 12
+                }
+            ]
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 2,
+                "y": 73
+            },
+            "maxCorner": {
+                "x": 15,
+                "y": 80
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 5,
+                        "y": 80
+                    },
+                    "isHorizontal": false,
+                    "length": 5
+                },
+                {
+                    "start": {
+                        "x": 6,
+                        "y": 80
+                    },
+                    "isHorizontal": false,
+                    "length": 5
+                }
+            ]
+        },
+        {
+            "roomType": "Boss",
+            "minCorner": {
+                "x": 2,
+                "y": 84
+            },
+            "maxCorner": {
+                "x": 11,
+                "y": 98
+            },
+            "connectedCorridors": []
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 31,
+                "y": 4
+            },
+            "maxCorner": {
+                "x": 42,
+                "y": 19
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 35,
+                        "y": 19
+                    },
+                    "isHorizontal": false,
+                    "length": 12
+                },
+                {
+                    "start": {
+                        "x": 36,
+                        "y": 19
+                    },
+                    "isHorizontal": false,
+                    "length": 12
+                }
+            ]
+        },
+        {
+            "roomType": "Shop",
+            "minCorner": {
+                "x": 27,
+                "y": 30
+            },
+            "maxCorner": {
+                "x": 44,
+                "y": 42
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 37,
+                        "y": 42
+                    },
+                    "isHorizontal": false,
+                    "length": 10
+                },
+                {
+                    "start": {
+                        "x": 38,
+                        "y": 42
+                    },
+                    "isHorizontal": false,
+                    "length": 10
+                }
+            ]
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 32,
+                "y": 51
+            },
+            "maxCorner": {
+                "x": 45,
+                "y": 94
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 45,
+                        "y": 76
+                    },
+                    "isHorizontal": true,
+                    "length": 4
+                },
+                {
+                    "start": {
+                        "x": 45,
+                        "y": 77
+                    },
+                    "isHorizontal": true,
+                    "length": 4
+                }
+            ]
+        },
+        {
+            "roomType": "Treasure",
+            "minCorner": {
+                "x": 48,
+                "y": 5
+            },
+            "maxCorner": {
+                "x": 63,
+                "y": 41
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 54,
+                        "y": 41
+                    },
+                    "isHorizontal": false,
+                    "length": 21
+                },
+                {
+                    "start": {
+                        "x": 55,
+                        "y": 41
+                    },
+                    "isHorizontal": false,
+                    "length": 21
+                }
+            ]
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 48,
+                "y": 61
+            },
+            "maxCorner": {
+                "x": 62,
+                "y": 96
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 62,
+                        "y": 81
+                    },
+                    "isHorizontal": true,
+                    "length": 5
+                },
+                {
+                    "start": {
+                        "x": 62,
+                        "y": 82
+                    },
+                    "isHorizontal": true,
+                    "length": 5
+                }
+            ]
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 66,
+                "y": 5
+            },
+            "maxCorner": {
+                "x": 79,
+                "y": 60
+            },
+            "connectedCorridors": []
+        },
+        {
+            "roomType": "NPC",
+            "minCorner": {
+                "x": 66,
+                "y": 76
+            },
+            "maxCorner": {
+                "x": 79,
+                "y": 89
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 79,
+                        "y": 81
+                    },
+                    "isHorizontal": true,
+                    "length": 7
+                },
+                {
+                    "start": {
+                        "x": 79,
+                        "y": 82
+                    },
+                    "isHorizontal": true,
+                    "length": 7
+                }
+            ]
+        },
+        {
+            "roomType": "Spawn",
+            "minCorner": {
+                "x": 90,
+                "y": 1
+            },
+            "maxCorner": {
+                "x": 97,
+                "y": 16
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 92,
+                        "y": 16
+                    },
+                    "isHorizontal": false,
+                    "length": 7
+                },
+                {
+                    "start": {
+                        "x": 93,
+                        "y": 16
+                    },
+                    "isHorizontal": false,
+                    "length": 7
+                }
+            ]
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 86,
+                "y": 22
+            },
+            "maxCorner": {
+                "x": 97,
+                "y": 35
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 86,
+                        "y": 35
+                    },
+                    "isHorizontal": false,
+                    "length": 7
+                },
+                {
+                    "start": {
+                        "x": 87,
+                        "y": 35
+                    },
+                    "isHorizontal": false,
+                    "length": 7
+                }
+            ]
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 82,
+                "y": 41
+            },
+            "maxCorner": {
+                "x": 89,
+                "y": 50
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 71,
+                        "y": 60
+                    },
+                    "isHorizontal": false,
+                    "length": 17
+                },
+                {
+                    "start": {
+                        "x": 72,
+                        "y": 60
+                    },
+                    "isHorizontal": false,
+                    "length": 17
+                },
+                {
+                    "start": {
+                        "x": 87,
+                        "y": 50
+                    },
+                    "isHorizontal": false,
+                    "length": 10
+                },
+                {
+                    "start": {
+                        "x": 88,
+                        "y": 50
+                    },
+                    "isHorizontal": false,
+                    "length": 10
+                }
+            ]
+        },
+        {
+            "roomType": "Standard",
+            "minCorner": {
+                "x": 87,
+                "y": 59
+            },
+            "maxCorner": {
+                "x": 98,
+                "y": 67
+            },
+            "connectedCorridors": [
+                {
+                    "start": {
+                        "x": 89,
+                        "y": 67
+                    },
+                    "isHorizontal": false,
+                    "length": 8
+                },
+                {
+                    "start": {
+                        "x": 90,
+                        "y": 67
+                    },
+                    "isHorizontal": false,
+                    "length": 8
+                }
+            ]
+        },
+        {
+            "roomType": "Puzzle",
+            "minCorner": {
+                "x": 85,
+                "y": 74
+            },
+            "maxCorner": {
+                "x": 93,
+                "y": 96
+            },
+            "connectedCorridors": []
+        }
+    ]
+}
