@@ -23,7 +23,7 @@ This tool serves as the practical proof-of-concept for the concepts examined in 
 
 ## Usage
 
-A detailed guide for game designers is included in the repository as [`Anleitung.pdf`](./Anleitung.pdf) (German) and covers:
+A detailed guide for game designers is included in the repository as [`Anleitung.pdf`](./Anleitung.pdf) (German) [`Guide_EN.pdf`](./Guide_EN.pdf) (English) and covers:
 
 1. Opening the tool (`Praxisarbeit → DungeonGenerator`)
 2. Assigning Dungeon Parent and Room Type Library
