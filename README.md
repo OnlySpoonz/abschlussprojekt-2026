@@ -1,51 +1,50 @@
-# Dungeon Generator – Editor-Tool für Unity
+# Dungeon Generator – Unity Editor Tool
 
-Praktische Umsetzung im Rahmen der Facharbeit **„Analyse und Evaluation des Einsatzes hausinterner proprietärer Tools in der Spieleentwicklung mit Fokus auf Environment-Tools"**.
+Practical component of the thesis **"Analysis and Evaluation of the Use of In-House Proprietary Tools in Game Development, with a Focus on Environment Tools"**.
 
-Ein Editor-Tool für Unity, mit dem Game Designer – **ohne Programmierkenntnisse** – prozedural generierte Dungeons erstellen und konfigurieren können. Das Tool nutzt **Binary Space Partitioning (BSP)**, um Räume zu erzeugen, verbindet sie über Korridore und klassifiziert sie automatisch nach Raumtyp.
+A Unity Editor tool that lets game designers — **without any programming knowledge** — create and configure procedurally generated dungeons. The tool uses **Binary Space Partitioning (BSP)** to generate rooms, connects them via corridors, and automatically classifies rooms by type.
 
 ## Features
 
-- **Eigenes Editor-Window** unter `Praxisarbeit → DungeonGenerator` mit zwei Tabs: *Dungeon Settings* und *Room Settings*
-- **BSP-basierte Raumaufteilung** – rekursive Unterteilung des Dungeon-Grundstücks in rechteckige Bereiche
-- **Automatische Raum-Klassifizierung** in sechs Raumtypen: Spawn, Boss, Treasure, Puzzle, Shop, NPC (+ Standard-Fallback)
-- **ScriptableObject-basierte Konfiguration**:
-  - `RoomData` – Prefabs (Floor/Wall/Ceiling/Door), Wandhöhe, Spawn-Content-Regeln und Spawn-Wahrscheinlichkeit pro Raumtyp
-  - `Room Type Library` – Sammlung aller RoomData-Objekte, referenziert vom Generator
-- **Konfigurierbare Generierungsparameter**: Dungeon Width/Length, Min Room Size, Max Split Depth, Corridor Width (Small/Medium/Large), Fixed Seed für reproduzierbare Ergebnisse, Random Room Sizes
-- **JSON-Import/Export** – Raumkonfiguration und Dungeon-Layout können gesichert und wiederhergestellt werden
-- **Automatische Validierung** mit klaren Fehlermeldungen (z.B. fehlender Dungeon Parent, ungültige Dungeon-Größe, zu hohe Split Depth)
-- **Live-Updates** – Änderungen an RoomData wirken sich bei bestehendem Dungeon sofort auf die Szene aus, ohne erneute Generierung
+- **Custom Editor Window** under `Praxisarbeit → DungeonGenerator` with two tabs: *Dungeon Settings* and *Room Settings*
+- **BSP-based room layout** – recursive subdivision of the dungeon area into rectangular regions
+- **Automatic room classification** into six room types: Spawn, Boss, Treasure, Puzzle, Shop, NPC (+ Standard fallback)
+- **ScriptableObject-based configuration**:
+  - `RoomData` – prefabs (Floor/Wall/Ceiling/Door), wall height, spawnable content rules and spawn probability per room type
+  - `Room Type Library` – collection of all RoomData objects, referenced by the generator
+- **Configurable generation parameters**: Dungeon Width/Length, Min Room Size, Max Split Depth, Corridor Width (Small/Medium/Large), Fixed Seed for reproducible results, Random Room Sizes
+- **JSON import/export** – room configuration and dungeon layout can be saved and restored
+- **Automatic validation** with clear error messages (e.g. missing Dungeon Parent, invalid dungeon size, split depth too high)
+- **Live updates** – changes to RoomData are applied to an existing dungeon in the scene immediately, without needing to regenerate
 
-## Technischer Hintergrund
+## Technical Background
 
-Dieses Tool dient als praktischer Nachweis der in der theoretischen Facharbeit untersuchten Konzepte hausinterner Environment-Tools – u.a. anhand von Analysen zu *Binding of Isaac* (parametrische Raumanzahl-Formel, BFS-Expansion, seed-basierte Determinismus) und *Skyrim* (Kit-basierte Kombinationsregeln, "high bang-for-buck"-Prinzip).
+This tool serves as the practical proof-of-concept for the concepts examined in the theoretical thesis on in-house environment tools — including analyses of *Binding of Isaac* (parametric room-count formula, BFS expansion, seed-based determinism) and *Skyrim* (kit-based combination rules, "high bang-for-buck" principle).
 
-## Verwendung
+## Usage
 
-Eine ausführliche Anleitung für Game Designer liegt im Repository unter [`Anleitung.pdf`](./Anleitung.pdf) und beschreibt:
+A detailed guide for game designers is included in the repository as [`Anleitung.pdf`](./Anleitung.pdf) (German) and covers:
 
-1. Öffnen des Tools (`Praxisarbeit → DungeonGenerator`)
-2. Zuweisen von Dungeon Parent und Room Type Library
-3. Konfiguration von Größe, Korridoren und Seed
-4. Einrichten der Raumtypen in *Room Settings*
-5. Generieren, Prüfen und Sichern des Dungeons
+1. Opening the tool (`Praxisarbeit → DungeonGenerator`)
+2. Assigning Dungeon Parent and Room Type Library
+3. Configuring size, corridors and seed
+4. Setting up room types in *Room Settings*
+5. Generating, reviewing and saving the dungeon
 
-### Empfohlener Workflow (Kurzfassung)
+### Recommended Workflow (Short Version)
 
-1. Dungeon Parent & Room Type Library zuweisen
-2. Dungeon Width/Length, Min Room Size und Max Split Depth festlegen
-3. Corridor Width auf *Medium* setzen (empfohlener Standardwert)
-4. Bei Bedarf Fixed Seed aktivieren
-5. Raumtypen in *Room Settings* konfigurieren
-6. **Generate Dungeon** klicken
-7. Stand über **Export** sichern
+1. Assign Dungeon Parent & Room Type Library
+2. Set Dungeon Width/Length, Min Room Size and Max Split Depth
+3. Set Corridor Width to *Medium* (recommended default)
+4. Enable Fixed Seed if needed
+5. Configure room types in *Room Settings*
+6. Click **Generate Dungeon**
+7. Save the current state via **Export**
 
-## Autor
+## Author
 
 Philip Nitschke – Game Design, Macromedia Akademie München
-Betreuung: Herr Kohl
+Supervised by: Herr Kohl
 
-## Lizenz
-
-"nur zu Bildungszwecken"
+## License
+for educational purposes only
