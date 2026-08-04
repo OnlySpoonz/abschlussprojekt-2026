@@ -2,7 +2,7 @@
 
 Practical component of the thesis **"Analysis and Evaluation of the Use of In-House Proprietary Tools in Game Development, with a Focus on Environment Tools"**.
 
-A Unity Editor tool that lets game designers — **without any programming knowledge** — create and configure procedurally generated dungeons. The tool uses **Binary Space Partitioning (BSP)** to generate rooms, connects them via corridors, and automatically classifies rooms by type.
+A Unity Editor tool that lets game designers - **without any programming knowledge** - create and configure procedurally generated dungeons. The tool uses **Binary Space Partitioning (BSP)** to generate rooms, connects them via corridors, and automatically classifies rooms by type.
 
 ## Features
 
@@ -19,7 +19,7 @@ A Unity Editor tool that lets game designers — **without any programming knowl
 
 ## Technical Background
 
-This tool serves as the practical proof-of-concept for the concepts examined in the theoretical thesis on in-house environment tools — including analyses of *Binding of Isaac* (parametric room-count formula, BFS expansion, seed-based determinism) and *Skyrim* (kit-based combination rules, "high bang-for-buck" principle).
+This tool serves as the practical proof-of-concept for the concepts examined in the theoretical thesis on in-house environment tools - including analyses of *Binding of Isaac* (parametric room-count formula, BFS expansion, seed-based determinism) and *Skyrim* (kit-based combination rules, "high bang-for-buck" principle).
 
 ## Usage
 
